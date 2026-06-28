@@ -25,13 +25,21 @@ git clone <your-repo-url>
 cd coderco-challenge
 docker compose up --build --scale web=3
 
-Then open:
 
+
+Then open:
 http://127.0.0.1:5002
+![Home Page](screenshots/home.png)
+
+
 
 Test visit counter:
-
 http://127.0.0.1:5002/count
+![Counter Page](screenshots/count.png)
+
+
+
+
 🧠 What I Learned
 🐳 Docker & Docker Compose
 How to define and manage multi-container applications
